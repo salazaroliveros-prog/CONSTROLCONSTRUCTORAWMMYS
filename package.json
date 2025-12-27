@@ -1,17 +1,5 @@
 "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-  "server": "node server.js"
-  "scripts": "start-server"
-  "scripts": "node server.js"
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "server": "node server.js"
+  "server": "node server.js" 
 }
-
-}
-
-
