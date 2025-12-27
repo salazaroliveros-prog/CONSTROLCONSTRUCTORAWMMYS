@@ -1,5 +1,5 @@
 "scripts": {
   "start": "react-scripts start",
   "build": "react-scripts build",
-  "server": "node server.js" 
+  "server": "node server.js"
 }
