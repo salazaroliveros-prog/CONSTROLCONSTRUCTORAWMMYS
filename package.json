@@ -6,6 +6,12 @@
   "server": "node server.js"
   "scripts": "start-server"
   "scripts": "node server.js"
+  "scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "server": "node server.js"
+}
 
 }
+
 
