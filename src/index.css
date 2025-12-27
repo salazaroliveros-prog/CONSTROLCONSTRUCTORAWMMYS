@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --wm-yellow: #facc15;
+  --wm-black: #050505;
+  --wm-card: #111111;
+}
+
+body {
+  background-color: var(--wm-black);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Efecto de cristal para las tarjetas */
+.wm-card {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.wm-card:hover {
+  border-color: var(--wm-yellow);
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.05);
+}
+
+/* Animación para alertas */
+@keyframes pulse-red {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.alert-critical {
+  animation: pulse-red 2s infinite;
+}
