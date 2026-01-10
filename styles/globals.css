@@ -1,0 +1,6 @@
+/* Estilos globales básicos para Next.js */
+body {
+  margin: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background: #f8f8f8;
+}
