@@ -10,6 +10,42 @@
 				"$tsc"
 			],
 			"group": "build"
+		},
+		{
+			"label": "Next.js Dev",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			]
+		},
+		{
+			"label": "Next.js Dev",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			]
+		},
+		{
+			"label": "Next.js Dev",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			]
+		},
+		{
+			"label": "Next.js Dev",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			]
 		}
 	]
 }
